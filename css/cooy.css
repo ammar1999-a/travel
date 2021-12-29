@@ -1,0 +1,152 @@
+* {
+  box-sizing:;
+/*  border: solid red 2px*/
+}
+body {margin: 0 ;
+      padding: 0;
+      background-color: #313035
+   
+    }
+.clear{clear: both}
+header {margin-top: }
+header .contact {float: left ;
+                 width: 50%;
+                background-color: #ff5300;
+                    height: 52px;
+
+               }
+
+header .s-media {float: right ; 
+                 width: 50%;
+                 background-color: #373737;
+                 height: 52px;
+
+                }
+
+header .contact ul {list-style: none }
+header .contact ul li {display: inline-block ;
+                       padding: 10px;
+                        color: #FFFFFF}
+header .contact ul li:hover {cursor: pointer}
+
+header .s-media ul {list-style: none;
+                    margin-left: 230px;}
+
+header .s-media ul li {display: inline-block;
+                        padding: 10px;
+                        margin: 0 10px 0 10px;
+                        font-size: 16;
+                        color: #FDFDFD;
+                           transition: 2s;
+                        perspective: 500px}
+
+header .s-media ul li:hover{cursor: pointer;
+                            transform: rotatey(360deg);
+                         }
+.sec-bar { background-color: #212025;
+    overflow: hidden
+        }
+.sec-bar .logo {
+    position: relative;
+    top: 27px;
+    left: 6%;
+    font-size: 30px;
+    color: #FDFCFE;
+    
+}
+.sec-bar .logo:hover{
+    cursor: pointer
+}
+.sec-bar  .logo span {
+    color: #FF5300;
+    font-size: 35px;
+
+}
+
+.sec-bar ul {list-style: none;
+        width: 400px ;
+        margin: 0 ;
+        position: relative;
+        left: 42%;
+    
+        }
+.sec-bar ul li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #FDFCFE
+        
+}
+.sec-bar ul li:hover {
+    cursor: pointer;
+    color: #FF5300;
+
+}
+.sec-bar input {
+        position: relative;
+    left: 83%;
+    bottom: 30px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #212025; 
+    color: #FF5300;
+    border: solid #FF5300 2px; 
+    width: 92px;
+    border-radius: 10px ; 
+
+    
+}
+.sec-bar input:hover{
+    cursor: pointer
+}
+
+.content .descrip {
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 150px;
+    float: left; 
+}
+.content .descrip pre {
+    font-size: 40px;
+     font-family: cursive;
+}
+.content .descrip pre span { 
+    color: #FF5300
+}
+.content .descrip p {
+    font-size: 30px
+}
+.content .descrip button {
+    background-color: #FFFFFF; 
+    padding: 8px;
+    font-size: 23px;
+    color: #FF5300;
+    border: none ;
+    border-radius: 10px;
+    width: 200px
+
+ 
+}
+
+.content .travler {
+    float: right
+   
+}
+.content .travler img {
+     width: 80%;
+    height: 500px;
+}
+.content .descrip button:hover{
+    cursor: pointer
+}
+
+
+
+
+
+
+
+
+
+
