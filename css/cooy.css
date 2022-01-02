@@ -140,6 +140,58 @@ header .s-media ul li:hover{cursor: pointer;
 .content .descrip button:hover{
     cursor: pointer
 }
+@media(max-width:768px) {
+    
+    header .contact  { 
+                       
+/*                       float: none;*/
+                       width: 50% ;
+                       height: auto 
+    }
+    
+    header .contact ul li {
+                       display: block;
+                        
+    }
+    header .s-media { 
+                       
+                        float: none ;
+                        width: 50% ;;
+                        height: auto
+    }
+    
+   
+    
+
+    header .s-media ul li {
+         display: block;
+         margin: 0;
+        
+        
+        
+        
+    }
+    header {
+/*        overflow: hidden*/
+    }
+    .sec-bar .logo {
+        display: none
+    }
+
+.sec-bar ul {
+        position: relative;
+    left: 28px;
+    top: 10px;
+}
+    
+    .sec-bar input {
+        
+        position: relative;
+    left: 370px;
+    bottom: 16px;
+    }
+}
+
 
 
 
